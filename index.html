@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <title>Workshop 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="hero">
+        <video autoplay muted loop id="video-background">
+            <source src="lake.mp4" type="video/mp4">
+        </video>
+
+        <nav class="navbar">
+            <div class="nav-inner">
+                <h2 class="logo">Prachi</h2>
+                <button id="menu-button" aria-expanded="false">☰</button>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Hello, I’m Prachi</h1>
+            <p>Aspiring Developer & UI/UX Designer</p>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hello, I am Prachi Malla. I am 19 and based in Nepal. I design websites using HTML, CSS and JavaScript. I also have some knowledge of Python, Java. I have keen interest in UI/UX too.</p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>Java</div>
+            <div>UI / UX</div>
+            <div>Python</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="weather.png">
+                <h3>Weather application</h3>
+                <p>Weather site using HTML, CSS, JavaScript and PHP</p>
+            </div>
+
+            <div class="project-card">
+                <img src="todo.png">
+                <h3>To do list Application</h3>
+                <p>To do list application made with flutter</p>
+            </div>
+
+            <div class="project-card">
+                <img src="game.jpg">
+                <h3>Excape Game</h3>
+                <p>Adventure game made with Unity</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form-id">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+<footer>
+    <p>© 2025 Prachi Malla</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
