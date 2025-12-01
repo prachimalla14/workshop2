@@ -9,6 +9,9 @@ body {
 color: white;
 }
 
+#menu-button {
+    display: block;
+}
 
 #video-background {
     position: fixed;
@@ -38,7 +41,8 @@ color: white;
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;               
-    height: 100%;                  
+    height: 100%;   
+    position: relative;               
 }
 
 
